@@ -62,8 +62,13 @@ p{
 .post-meta-data{
   font-size: 1.4em;
 }
-
-@media screen and (max-width: 480px){
+/*===========================================*/
+@media screen and (max-device-width : 480px){
+  body {
+    font-size: 100%;
+    width: 90%;
+    margin: 10px auto;
+  }
   .post-info{
     float:none;
     width:100%;
