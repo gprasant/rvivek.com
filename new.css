@@ -1,0 +1,75 @@
+
+/*======*/
+html{
+  font-size: 16px;
+}
+
+body{
+  font-size: 62.5%;
+  font-family: Georgia, Serif;
+  margin: 10px auto;
+  width: 90%;
+}
+h1{
+  font-size: 3em; /* 30px/10px */
+}
+p{
+  font-size: 1.7em;
+}
+.menu-main {
+  display: block;
+  float: right;
+  font-size: 1.7em;
+}
+
+.menu-main li{
+  float:left;
+  position: relative;
+}
+.menu-main ul {list-style: none; margin: 0; padding: 0;}
+.menu-main ul ul li {
+  min-width: 180px;
+}
+.menu-main a {
+  border-top: 3px solid #fff;
+  color: #6a797d; 
+  display: block; 
+  line-height: 10px; 
+  margin-right:1.819em; 
+  padding: 20px 0 10px; 
+  text-decoration: none; 
+}
+.menu-main .current_page_item a {
+  border-color: #6a797d;
+}
+.menu-main li:hover > a {
+  border-color: #ff8a00;
+}
+.clearboth {clear:both;}
+
+#header {
+  font-size: 4em;
+}
+
+.post {
+  margin: 20px 0px;
+}
+
+.post-info {float:left; width:20%; margin:0 1.667em 0 0; word-wrap:break-word; overflow:hidden;}
+
+.post-content {float:left; width:70%; overflow:visible;}
+
+.post-meta-data{
+  font-size: 1.4em;
+}
+
+@media screen and (max-width: 480px){
+  .post-info{
+    float:none;
+    width:100%;
+  }
+  .post-content{
+    float: none;
+    width: 100%;
+  }
+}
